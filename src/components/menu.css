@@ -1,0 +1,9 @@
+.active-section {
+  background-color: white;
+}
+.not-active-section {
+  background-color: yellow;
+}
+#anchor {
+  scroll-margin-top: 100px;
+}

@@ -1,7 +1,8 @@
 const ShowMore = (props) => {
   return (
     <a
-      className="border py-2 px-6 text-base uppercase font-bold border-yellow-400 rounded-3xl hover:border-red-500"
+      id={props.id}
+      className={`border py-2 px-6 text-base uppercase font-bold border-yellow-400 rounded-3xl ${props.className}`}
       href={props.href}
     >
       {props.content}
